@@ -1,0 +1,36 @@
+{
+  "name": "json2query",
+  "version": "1.0.0",
+  "description": "Json Parser which create mysql insert query from json array",
+  "scripts": {
+    "build": "webpack",
+    "test": "npm jest"
+  },
+  "keywords": [
+    "json",
+    "query",
+    "insert",
+    "mysql"
+  ],
+  "homepage": "https://github.com/njh7799/json-to-mysql-query",
+  "bugs": {
+    "url": "https://github.com/njh7799/json-to-mysql-query/issues",
+    "email": "rainy_waltz@naver.com"
+  },
+  "license": "MIT",
+  "author": "JeongHo Nam <rainy_waltz@naver.com>",
+  "main": "dist/main.js",
+  "repository": "git@github.com:njh7799/json_to_mysql_query.git",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "dependencies": {
+    "type-detect": "^4.0.8"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
