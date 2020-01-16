@@ -1,7 +1,7 @@
 module.exports.user = [
   {
     name: 'jack',
-    height: '174.2',
+    height: '174.0',
     age: 27,
     cellPhone: '010-0000-0000',
   },
@@ -71,5 +71,20 @@ module.exports.cardSlide = [
     link: 'https://www.amazon.com',
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/detail_page/Card_A04._CB494909365_.jpg',
+  },
+];
+
+module.exports.maple = [
+  {
+    job: undefined,
+    level: null,
+  },
+  {
+    job: 'hero',
+    level: 120,
+  },
+  {
+    job: 'captain',
+    level: 240,
   },
 ];

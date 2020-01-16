@@ -1,6 +1,6 @@
 {
   "name": "json2query",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Json Parser which create mysql insert query from json array",
   "scripts": {
     "build": "webpack",

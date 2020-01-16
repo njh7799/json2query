@@ -13,4 +13,9 @@ describe('typechecker', () => {
     expect(typechecker(174.5)).toBe('double');
     expect(typechecker('174.5')).toBe('double');
   });
+  test('should return null', () => {
+    expect(typechecker()).toBe('null');
+    expect(typechecker(undefined)).toBe('null');
+    expect(typechecker(null)).toBe('null');
+  });
 });
